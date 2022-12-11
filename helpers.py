@@ -156,7 +156,7 @@ alice_wallet = create_alice_wallet(ocean) #you're Alice
 
 from pybundlr import pybundlr
 file_name = "/tmp/pred_vals.csv"
-url = "https://arweave.net/n1vuQ1x_gyo-S3Y9xRmlzJx-jMxqvt3mos0jE3K1nW4"#pybundlr.fund_and_upload(file_name, "matic", alice_wallet.private_key)
+url = pybundlr.fund_and_upload(file_name, "matic", alice_wallet.private_key)
 #e.g. url = "https://arweave.net/qctEbPb3CjvU8LmV3G_mynX74eCxo1domFQIlOBH1xU"
 print(f"Your csv url: {url}")
 
