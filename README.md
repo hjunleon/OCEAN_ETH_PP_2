@@ -12,4 +12,7 @@
 3, Auto ARIMA
 
 
+## Links
+
+Slides: https://docs.google.com/presentation/d/1xdt7N0KtCLKoKow5LHjNUUaEeZmj7DxjuqyX2GQ3XbQ/edit?usp=sharing
 
